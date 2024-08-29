@@ -1,9 +1,8 @@
-# Pinkulani @ 4.12.2023 
-# Use bigger numbers (atleast 100 000 000)
-def Pi(Len):
+# Pinkulani © 2023
+def Pi(Resolution):
 	Pi = 4 / 1
 	Minus = True
-	for X in range(3, Len, 2):
+	for X in range(3, Resolution, 2):
 		if Minus == True:
 			Pi = Pi - (4 / X)
 			Minus = False			
