@@ -34,7 +34,6 @@ class LinkedList:
         
             Current.Next = Current.Next.Next
             
-    
     def Display(self):
         if self.Head == None:
             print("List is empty")
