@@ -18,9 +18,8 @@ class Stack:
         if self.Head == None:
             print("Stack is empty")
         else:
-            Next = self.Head.Next
-            self.Head = Next
-    
+            self.Head = self.Head.Next
+
     def Display(self):
         if self.Head == None:
             print("Stack is empty")
